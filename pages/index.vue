@@ -53,6 +53,27 @@
       </div>
     </div>
 
+    <!-- Platform Notice -->
+    <div class="mt-12 text-center glass-effect p-6 max-w-4xl border-l-4 border-yellow-400">
+      <div class="flex items-center justify-center gap-3 mb-3">
+        <svg class="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+        </svg>
+        <h3 class="text-2xl font-bold text-yellow-400">平台通知</h3>
+      </div>
+      <p class="text-lg opacity-90">
+         这是 <span class="gradient-text font-bold">?</span><strong>CTF 2025</strong> 的预热页面。正式比赛平台正在维护中。
+       </p>
+       <div class="mt-4 space-y-2">
+         <p class="text-sm opacity-80">
+           <strong class="text-blue-400">公开赛道群：</strong><span class="font-mono bg-gray-800 px-2 py-1 rounded">1063409268</span>
+         </p>
+         <p class="text-sm opacity-80">
+           <strong class="text-orange-400">校内赛道：</strong>由各高校独立通知
+         </p>
+       </div>
+    </div>
+
     <!-- Competition Description -->
     <div class="mt-12 text-center glass-effect p-8 max-w-6xl">
       <h3 class="text-3xl font-bold mb-6">关于 ?CTF 2025</h3>
