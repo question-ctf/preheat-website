@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-blue: #193285;
+  --primary-orange: #ef761d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-orange) 100%);
+  min-height: 100vh;
+  color: white;
+  overflow-x: hidden;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, var(--primary-orange) 50%, var(--primary-blue) 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.countdown-card {
+  @apply glass-effect p-8 text-center transition-all duration-300 hover:scale-105;
+}
+
+.countdown-number {
+  @apply text-6xl font-bold mb-2;
+}
+
+.countdown-label {
+  @apply text-lg opacity-80;
+}
+
+@media (max-width: 768px) {
+  .countdown-number {
+    @apply text-4xl;
+  }
+}
