@@ -24,6 +24,7 @@ export default defineNuxtConfig({
         { name: 'description', content: '?CTF 比赛倒计时页面' }
       ],
       link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         { rel: 'icon', type: 'image/svg+xml', href: '/icon.svg' }
       ]
     }
