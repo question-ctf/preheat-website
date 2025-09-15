@@ -10,10 +10,13 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "nuxt": "^3.8.0"
+    "nuxt": "^3.13.0"
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.8.4",
     "dayjs": "^1.11.10"
+  },
+  "overrides": {
+    "oxc-parser": "^0.9.0"
   }
 }
